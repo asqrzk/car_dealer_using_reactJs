@@ -43,7 +43,7 @@ export default class Catalogue extends React.Component<{},{name:string,price:num
                                     <div className="card-body">
                                         <h5 className="card-title">{el.name}</h5>
                                         <p className="card-text">₹{el.price}</p>
-                                        <a className="btn btn-primary" onClick={()=>{this.showModal(el)}}>Buy Now</a>
+                                        <a className="btn btn-primary" href="/#" onClick={()=>{this.showModal(el)}}>Buy Now</a>
                                     </div>
                                 </div>
                             </div>

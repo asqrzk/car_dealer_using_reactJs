@@ -17,7 +17,7 @@ type initialState = {name:"",price:0};
     ListCar(e:any)
     {
         e.preventDefault();
-        if(this.state.name==""||this.state.price<=0) toast.error("Please check input");
+        if(this.state.name===""||this.state.price<=0) toast.error("Please check input");
         else 
         {
             cars.push({name:this.state.name,price:this.state.price,image:"car"});
